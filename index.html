@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do Card</title>
+    <link rel="stylesheet" href="index.css">
+    
+</head>
+<body>
+    <div class="hsec">
+    <h1>To Do Card</h1>
+    <section class="container">
+        <div class="container-top">
+            <input type="text" id="inputBtn" placeholder="enter todos items" data-length="100" onkeypress="createTodo(event)">
+        </div>
+        <div class="container-bottom">
+            <ul id="todolist">
+            </ul>
+        </div>
+        <div class="container-btn">
+            <button onclick="saveStorage(event)">
+                Save
+            </button>
+            <button onclick="clearTodo()">Reset</button>
+        </div>
+    </section>
+</div>
+    <script src="./index.js"></script>
+    <script src="https://kit.fontawesome.com/b053ab4793.js" crossorigin="anonymous"></script>
+</body>
+</html>

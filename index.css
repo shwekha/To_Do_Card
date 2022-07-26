@@ -1,0 +1,106 @@
+@import url(./reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lobster&family=The+Nautigal&display=swap');
+
+body {
+    width: 100vw;
+    min-height: 100vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.hsec{
+    display: flex;
+    flex-direction: column;
+    
+}
+h1{
+    font-family: 'Dancing Script', cursive;
+    margin: auto;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10%;
+    color: #B232B2;
+}
+
+.container {
+    width: 350px;
+    min-height: 200px;
+    background-color: white;
+    border-radius: 1rem;
+    border: 2px solid purple;
+    box-shadow: violet 0px 7px 29px 0px;
+}
+
+.container-top {
+    width: 80%;
+    height: 40px;
+    margin: 2rem auto;
+    display: flex;
+    border-radius: 5px;
+    border: 2px solid violet;
+    box-shadow: violet 0px 25px 20px -20px;
+}
+
+.container-top input {
+    background-color: transparent;
+    outline: none;
+    border-radius: 4px;
+    border: none;
+    color: #838284;
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+}
+
+.container-bottom {
+    width: 80%;
+    height: 80%;
+    margin:0 auto;
+}
+
+.container-bottom ul li{
+    display: flex;
+    list-style: none;
+    width: 90%;
+    justify-content: space-between;
+    color: black;
+    font-size: 0.9rem;
+    padding: 0.6rem;
+    cursor: pointer;
+}
+
+.todosList {
+    display: flex;
+    gap: 1rem;
+}
+
+.container-btn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+}
+
+.container-btn button {
+    background-color: whitesmoke;
+    outline: none;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 4px;
+    color: black;
+    letter-spacing: 1px;
+    box-shadow: -6px -6px 10px plum,
+    6px 6px 10px purple,
+    inset -6px -6px 10px violet,
+    inset 6px 6px 10px purple;
+    transition: all 0.3s;
+}
+
+.container-btn button:hover {
+    transform: scale(1.1);
+    letter-spacing: 2px;
+}
